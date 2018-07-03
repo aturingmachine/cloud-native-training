@@ -28,6 +28,6 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-jdbc')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('org.springframework.boot:spring-boot-devtools')
-	runtime('com.h2database:h2')
+	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
